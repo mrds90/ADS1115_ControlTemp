@@ -6,8 +6,8 @@
 
 /*=====[Avoid multiple inclusion - begin]====================================*/
 
-#ifndef __APP_H__
-#define __APP_H__
+#ifndef __PORT_H__
+#define __PORT_H__
 
 /*=====[Inclusions of public function dependencies]==========================*/
 
@@ -41,4 +41,4 @@ extern "C" {
 
 /*=====[Avoid multiple inclusion - end]======================================*/
 
-#endif /* __DOMINGUEZ_ACTIVIDAD_1_H__ */
+#endif /* __PORT_H__ */

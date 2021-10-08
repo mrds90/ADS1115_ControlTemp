@@ -6,8 +6,8 @@
 
 /*=====[Avoid multiple inclusion - begin]====================================*/
 
-#ifndef __APP_H__
-#define __APP_H__
+#ifndef __ADS111X_DRIVER_H__
+#define __ADS111X_DRIVER_H__
 
 /*=====[Inclusions of public function dependencies]==========================*/
 
@@ -41,4 +41,4 @@ extern "C" {
 
 /*=====[Avoid multiple inclusion - end]======================================*/
 
-#endif /* __APP_H__ */
+#endif /* __ADS111X_DRIVER_H__ */
