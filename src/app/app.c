@@ -5,6 +5,6 @@
  *===========================================================================*/
 
 /*=====[Inclusions of function dependencies]=================================*/
-
+#include "ads111x_driver.h"
 
 /*=====[Prototypes (declarations) of private functions]=======================*/
