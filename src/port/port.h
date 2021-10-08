@@ -13,7 +13,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "sapi.h"
+#include "../ads111x_driver/ads111x_driver.h"
 
 /*=====[C++ - begin]=========================================================*/
 
@@ -30,7 +30,7 @@ extern "C" {
 /*=====[Definitions of public data types]====================================*/
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
-
+ads111x_i2c_t PORT_Init(void);
 
 
 /*=====[C++ - end]===========================================================*/
