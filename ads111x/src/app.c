@@ -6,7 +6,8 @@
 
 /*=====[Inclusions of function dependencies]=================================*/
 
-
+#include "app.h"
+#include "sapi.h"
 
 /*=====[Definition macros of private constants]==============================*/
 
@@ -17,3 +18,16 @@
 /*=====[Definitions of private global variables]=============================*/
 
 /*=====[Main function, program entry point after power on or reset]==========*/
+
+int main(void)
+{
+      
+	boardInit();
+
+   // ----- Loop infinito -------------------------
+   while(TRUE) {
+        /* Control de funciones */
+   }
+	// Nunca se alcanza este punto debido al ciclo infinito del while(true)
+   return 0;
+}

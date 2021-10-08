@@ -33,12 +33,11 @@ extern "C" {
 /*=====[Definitions of public data types]====================================*/
 
 typedef struct {
-    void (*init)(uint8_t);
+    void (*Init)(void);
     void (*Write)(uint8_t,uint8_t, uint16_t); // Write function pointer (addr,reg, data)
     void (*WriteRead)(uint8_t, uint8_t, uint16_t*); // WriteRead function pointer (addt, reg, *data)
 } ads111x_i2c_t;
 
-} ads111x_comm_func_t;
 typedef enum {
     ADS1113 = 1,
     ADS1114,
@@ -134,9 +133,9 @@ typedef enum {
 }ads111x_config_field_t;
 
 typedef struct {
+    uint16_t configuration;
     ads111x_device_t device;
     ads111x_addr_t i2c_address;
-    uint16_t configuration;
 } ads111x_obj_t;
 
 /*=====[Prototypes (declarations) of public functions]=======================*/

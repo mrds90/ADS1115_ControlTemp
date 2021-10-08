@@ -6,14 +6,14 @@
 
 /*=====[Avoid multiple inclusion - begin]====================================*/
 
-#ifndef __APP_H__
-#define __APP_H__
+#ifndef __PORT_H__
+#define __PORT_H__
 
 /*=====[Inclusions of public function dependencies]==========================*/
 
 #include <stdint.h>
 #include <stddef.h>
-#include "sapi.h"
+#include "ads111x_driver.h"
 
 /*=====[C++ - begin]=========================================================*/
 
@@ -30,7 +30,7 @@ extern "C" {
 /*=====[Definitions of public data types]====================================*/
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
-
+ads111x_i2c_t PORT_Init(void);
 
 
 /*=====[C++ - end]===========================================================*/
@@ -41,4 +41,5 @@ extern "C" {
 
 /*=====[Avoid multiple inclusion - end]======================================*/
 
-#endif /* __APP_H__ */
+
+#endif /* __PORT_H__ */
