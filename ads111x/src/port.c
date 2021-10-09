@@ -31,14 +31,14 @@ ads111x_i2c_t PORT_Init(void) {
 /*=====[Implementations of private functions]=================================*/
 
 static void PORT_i2cInit(void) {
-    i2cInit(I2C0, 100000);
+    i2cInit(I2C0, 50000);
 }
 
 static void PORT_i2cWrite(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t data) {
     uint8_t data_to_send[3];
     data_to_send[0] = i2c_register;
-    data_to_send[1] = (data >> 8) & 0xFF;
-    data_to_send[2] = data & 0xFF;
+    data_to_send[1] = (uint8_t)((data >> 8) & 0xFF);
+    data_to_send[2] = (uint8_t)(data & 0xFF);
     i2cWrite(I2C0, i2cSlaveAddress, data_to_send, 3, TRUE);
 }
 
