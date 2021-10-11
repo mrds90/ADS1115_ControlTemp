@@ -91,7 +91,7 @@ uint8_t ADS111x_Init(ads111x_obj_t *ptr_asd111x, ads111x_addr_t i2c_address, ads
 
 void ADS111x_StartConversion(ads111x_obj_t *ptr_asd111x) {
     ADS111x_SetConfiguration(ptr_asd111x, ADS111X_CONFIG_FIELD_OS, ADS111X_START_CONVERSION);
-    ptr_asd111x->configuration &=~ADS111X_CONFIG_FIELD_OS_MASK;
+    ptr_asd111x->configuration &=~ADS111X_CONFIG_FIELD_OS_MASK; // Clear OS bit to avoid unnecessary conversion cmd when a configuration is performed
 }
 
 int16_t ADS111x_Read(ads111x_obj_t *ptr_asd111x) {
