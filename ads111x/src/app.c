@@ -10,7 +10,7 @@
 #include "sapi.h"
 #include "../inc/ads111x_driver.h"
 #include "../inc/port.h"
-#include "sapi_i2c.h"
+
 /*=====[Definition macros of private constants]==============================*/
 
 /*=====[Definitions of extern global variables]==============================*/
@@ -25,7 +25,7 @@ static volatile uint16_t adc_value;
 int main(void)
 {
    bool flag = true;
-	boardInit();
+   boardInit();
    ads111x_i2c_t ads111x_port = PORT_Init();
    ADS111x_Init(&ads1115_0, ADS111X_ADDR_0, ADS111X_PGA_4096, ADS1115, &ads111x_port);
    ADS111x_SetDataRate(&ads1115_0, ADS111X_DATA_RATE_16SPS);

@@ -74,7 +74,10 @@ static const uint16_t ads111x_config_bit[ADS111X_CONFIG_FIELD_QTY] = {
 
 uint8_t ADS111x_Init(ads111x_obj_t *ptr_asd111x, ads111x_addr_t i2c_address, ads111x_pga_t gain, ads111x_device_t device, ads111x_i2c_t *port) {
     uint8_t result = ADS111x_CONFIG_ERROR;
-    ads111x_i2c = *port;
+    if (port != NULL) {
+        ads111x_i2c = *port;
+        port->Init();
+    }
     if (ptr_asd111x!=NULL) {
         ptr_asd111x->device = device;
         ptr_asd111x->i2c_address = i2c_address;

@@ -2,222 +2,220 @@ MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000300 00000010 t A
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000310 00000024 t ADS111x_ReadRegister
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000334 0000003c t ADS111x_SetConfiguration
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000048 0000000c b ads111x_i2c
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f00 00000012 t ads111x_config_bit
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f14 00000012 t ads111x_config_mask
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000428 00000036 t PORT_i2cWriteRead
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00045e 00000028 t PORT_i2cWrite
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000486 0000000e t PORT_i2cInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e24 00000012 t ads111x_config_bit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e38 00000012 t ads111x_config_mask
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0004a6 00000020 t PORT_i2cWriteRead
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0004c6 00000020 t PORT_i2cWrite
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0004e8 00000010 t PORT_i2cInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000054 00000002 b adc_value
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000058 00000004 b ads1115_0
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000610 00000044 t Board_LED_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000654 00000040 t Board_TEC_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000694 00000040 t Board_GPIO_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0006d4 00000030 t Board_ADC_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000704 00000038 t Board_SPI_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00073c 00000024 t Board_I2C_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f2c 00000008 t GpioButtons
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f34 0000000c t GpioLeds
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f40 00000012 t GpioPorts
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f58 00000004 t InitClkStates
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f5c 00000074 t pinmuxing
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000674 00000044 t Board_LED_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0006b8 00000040 t Board_TEC_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0006f8 00000040 t Board_GPIO_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000738 00000030 t Board_ADC_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000768 00000038 t Board_SPI_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007a0 00000024 t Board_I2C_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e50 00000008 t GpioButtons
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e58 0000000c t GpioLeds
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e64 00000012 t GpioPorts
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e7c 00000004 t InitClkStates
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e80 00000074 t pinmuxing
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000000 00000038 d i2c
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000ab8 0000002c t Chip_UART_GetIndex
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001fd0 00000008 t UART_BClock
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001fd8 00000008 t UART_PClock
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000c14 00000014 t Chip_ADC_GetClockIndex
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000c28 00000032 t getClkDiv
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000cf0 000000a0 t pll_calc_divs
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000d90 0000010c t pll_get_frac
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000e9c 0000004c t Chip_Clock_FindBaseClock
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001110 00000022 t Chip_Clock_GetDivRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000bc8 0000002c t Chip_UART_GetIndex
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001ef4 00000008 t UART_BClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001efc 00000008 t UART_PClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000d24 00000014 t Chip_ADC_GetClockIndex
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000d38 00000032 t getClkDiv
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000e00 000000a0 t pll_calc_divs
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000ea0 0000010c t pll_get_frac
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000fac 0000004c t Chip_Clock_FindBaseClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001220 00000022 t Chip_Clock_GetDivRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1000005c 00000008 b audio_usb_pll_freq
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001fec 0000006c t periph_to_base
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002058 00000048 t InitClkStates
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001508 00000014 t Chip_SSP_GetClockIndex
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00151c 00000018 t Chip_SSP_GetPeriphClockIndex
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f10 0000006c t periph_to_base
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f7c 00000048 t InitClkStates
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0014e8 00000014 t Chip_SSP_GetClockIndex
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0014fc 00000018 t Chip_SSP_GetPeriphClockIndex
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000038 00000004 d ClockSpeed
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000064 00000004 b callBackFuncParams
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000068 00000008 b tickCounter
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000070 00000004 b tickHookFunction
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001798 00000034 t gpioObtainPinInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0016bc 00000034 t gpioObtainPinInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000074 00000004 b g_hUsb
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00218c t __init_array_end
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002188 b __preinit_array_end
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002188 t __init_array_start
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002188 b __preinit_array_start
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000f34 0000001c T Chip_Clock_GetDividerSource
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0014d4 0000000e T Chip_I2CM_Xfer
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020b0 t __init_array_end
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020ac b __preinit_array_end
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020ac t __init_array_start
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020ac b __preinit_array_start
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001044 0000001c T Chip_Clock_GetDividerSource
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W TIMER2_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0016dc 00000038 T i2cInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000184 00000002 W DebugMon_Handler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W RIT_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a080000 A __top_MFlashA512
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000474 00000010 T i2c_MasterSend
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W ADCHS_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000114 T __section_table_start
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W I2C0_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007b4 00000008 T __stdio_init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00049c 0000000a T I2C0_IRQHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000818 00000008 T __stdio_init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000434 00000040 T i2c_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000394 0000000e T ADS111x_SetThresholdLow
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00017a 00000002 W HardFault_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00088c 00000120 T handleMasterXferState
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0008f0 00000120 T handleMasterXferState
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000000 A __vectors_start__
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000cce 0000000c T Chip_ADC_SetResolution
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0016b0 0000002c T SysTick_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000580 00000002 W initialise_monitor_handles
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000dde 0000000c T Chip_ADC_SetResolution
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001690 0000002c T SysTick_Handler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0005e4 00000002 W initialise_monitor_handles
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SDIO_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W ATIMER_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000186 00000002 W PendSV_Handler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000178 00000002 W NMI_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002194 R __exidx_end
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020b8 R __exidx_end
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000150 T __data_section_table_end
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W I2C1_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W UART1_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO5_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W CAN1_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001754 00000044 T i2cWriteRead
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:53ff730a A __valid_user_code_checksum
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a002194 R _etext
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000b30 0000002e T Chip_I2C_MasterSend
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:53ff72a6 A __valid_user_code_checksum
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a9c 00000094 T Chip_I2C_MasterTransfer
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020b8 R _etext
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W USB1_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W I2S0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W TIMER3_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0011b2 0000000c T Chip_Clock_GetBaseClocktHz
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0012c2 0000000c T Chip_Clock_GetBaseClocktHz
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W UART0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001a8 00000012 T bss_init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SGPIO_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a38 00000030 T Chip_I2C_MasterStateHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001b14 T __aeabi_uldivmod
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000b98 00000030 T Chip_I2C_MasterStateHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001a38 T __aeabi_uldivmod
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000080 ? _noinit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000078 00000004 B SystemCoreClock
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000ae4 00000054 T Chip_UART_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000bf4 00000054 T Chip_UART_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W ADC0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000180 00000002 W UsageFault_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001230 0000004c T Chip_Clock_GetRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001340 0000004c T Chip_Clock_GetRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO6_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007f4 0000006c T Board_SetupClocking
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000858 0000006c T Board_SetupClocking
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:20008000 A __top_RamAHB32
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a08 00000030 T Chip_I2C_SetMasterEventHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003c8 00000034 T ADS111x_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001b44 000002d0 T __udivmoddi4
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f28 00000004 T ExtRateIn
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a6c 00000030 T Chip_I2C_SetMasterEventHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003c8 00000040 T ADS111x_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001a68 000002d0 T __udivmoddi4
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e4c 00000004 T ExtRateIn
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W IntDefaultHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000484 00000018 T i2c_MasterReceive
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000300 T __CRP_WORD_END__
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000386 0000000e T ADS111x_Read
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO1_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SSP0_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00218c R __exidx_start
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020b0 R __exidx_start
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0002fc 00000004 T CRP_WORD
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e18 00000048 T __libc_init_array
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001d3c 00000048 T __libc_init_array
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W ADC1_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000784 00000030 T Board_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00060e 00000002 W _init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007e8 00000030 T Board_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000672 00000002 W _init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000114 T __data_section_table
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W RTC_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000080 B _ebss
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W TIMER0_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000584 00000088 T Reset_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001634 0000007c T tickInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0005e8 00000088 T Reset_Handler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001614 0000007c T tickInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:20010000 A __top_RamAHB_ETB16
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SPI_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0014e2 00000024 T Chip_I2CM_XferBlocking
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0009d0 00000038 T Chip_I2C_SetClockRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a34 00000038 T Chip_I2C_SetClockRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W LCD_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000494 0000001c T PORT_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000ee8 0000004c T Chip_Clock_EnableCrystal
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0004f8 0000001c T PORT_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000ff8 0000004c T Chip_Clock_EnableCrystal
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10008000 A __top_RamLoc32
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00018a 0000001e T data_init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W TIMER1_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0009ac 00000024 T Chip_I2C_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a10 00000024 T Chip_I2C_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W UART2_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0010a4 0000006c T Chip_Clock_GetMainPLLHz
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0011b4 0000006c T Chip_Clock_GetMainPLLHz
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003b0 0000000c T ADS111x_SetMultiplexer
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0020a0 000000e6 T gpioPinsInit
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001534 00000012 T Chip_SSP_SetClockRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001fc4 000000e6 T gpioPinsInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001514 00000012 T Chip_SSP_SetClockRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO2_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00118c 00000026 T Chip_Clock_GetBaseClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00129c 00000026 T Chip_Clock_GetBaseClock
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000370 00000016 T ADS111x_StartConversion
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003fc 0000000c T ADS111x_SetDataRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000408 0000000c T ADS111x_SetDataRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000048 B _bss
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000c9c 00000032 T Chip_ADC_SetSampleRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000dac 00000032 T Chip_ADC_SetSampleRate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003bc 0000000c T ADS111x_SetGain
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W I2S1_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001546 0000003e T Chip_SSP_SetBitRate
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001506 00000002 T Chip_GPIO_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001f54 00000004 T OscRateIn
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001526 0000003e T Chip_SSP_SetBitRate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0014e4 00000002 T Chip_GPIO_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e78 00000004 T OscRateIn
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0003a2 0000000e T ADS111x_SetThresholdHigh
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000080 ? _end_noinit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10008000 A _vStackTop
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SSP1_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000178 T __bss_section_table_end
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0017cc 000001ac T gpioInit
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e14 00000002 W __aeabi_ldiv0
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001a4c 0000001c T USB0_IRQHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0016f0 000001ac T gpioInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001d38 00000002 W __aeabi_ldiv0
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001970 0000001c T USB0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO3_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a68 00000018 T Chip_I2C_IsStateChanged
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SCT_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000f50 0000001c T Chip_Clock_GetDividerDivisor
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001060 0000001c T Chip_Clock_GetDividerDivisor
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0002fc T __CRP_WORD_START__
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e60 000000a0 T memset
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001d84 000000a0 T memset
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00017c 00000002 W MemManage_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0004b0 000000d0 T main
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000514 000000d0 T main
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W WDT_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:2000c000 A __top_RamAHB16
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1008a000 A __top_RamLoc40
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000182 00000002 W SVC_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000408 0000000c T ADS111x_SetMode
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000414 0000000c T ADS111x_SetMode
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO7_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0011c0 0000003c T Chip_Clock_EnableOpts
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000f6c 000000b8 T Chip_Clock_GetClockInputHz
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001024 00000080 T Chip_Clock_CalcMainPLLValue
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0015bc 00000038 T SystemInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0012d0 0000003c T Chip_Clock_EnableOpts
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00107c 000000b8 T Chip_Clock_GetClockInputHz
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001134 00000080 T Chip_Clock_CalcMainPLLValue
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00159c 00000038 T SystemInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W SPIFI_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001adc 00000038 T delay
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001a00 00000038 T delay
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W QEI_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000150 T __bss_section_table
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001978 0000006a T gpioWrite
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00060c 00000002 W _fini
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000c5c 00000040 T Chip_ADC_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00189c 0000006a T gpioWrite
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000670 00000002 W _fini
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000d6c 00000040 T Chip_ADC_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1000007c 00000004 B g_pUsbApi
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007bc 00000038 T Board_SetupMuxing
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000b38 000000dc T Chip_UART_SetBaudFDR
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001610 0000000c T tickRead
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000820 00000038 T Board_SetupMuxing
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000c48 000000dc T Chip_UART_SetBaudFDR
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0015f0 0000000c T tickRead
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000040 00000008 D tickRateMS
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W ETH_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000000 ? _end_uninit_RESERVED
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1b000000 T __core_m0app_START__
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W CAN0_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0013d4 00000100 T Chip_I2CM_XferHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000000 D _data
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000080 B _pvHeapStart
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000178 T __section_table_end
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001584 00000038 T Chip_SSP_Init
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000a80 00000038 T Chip_I2C_EventHandlerPolling
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001564 00000038 T Chip_SSP_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GINT0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W DAC_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001714 00000040 T i2cWrite
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000760 00000024 T Board_Debug_Init
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0007c4 00000024 T Board_Debug_Init
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:10000048 D _edata
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00086c 00000020 T Chip_I2C_EventHandler
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0008d0 00000020 T Chip_I2C_EventHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W M0SUB_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00127c 00000158 T Chip_SetupCoreClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00138c 00000158 T Chip_SetupCoreClock
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO0_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000000 00000040 T g_pfnVectors
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000cdc 00000014 T SystemCoreClockUpdate
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000dec 00000014 T SystemCoreClockUpdate
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W DMA_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W EVRT_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1b080000 A __top_MFlashB512
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001e14 00000002 W __aeabi_idiv0
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001d38 00000002 W __aeabi_idiv0
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000b5e 00000038 T Chip_I2C_MasterCmdRead
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00017e 00000002 W BusFault_Handler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0011fc 00000034 T Chip_Clock_Enable
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00130c 00000034 T Chip_Clock_Enable
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W UART3_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W MCPWM_IRQHandler
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W M0APP_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0019e2 00000068 T gpioRead
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001a68 00000074 T boardInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001906 00000068 T gpioRead
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00198c 00000074 T boardInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000040 000000d4 T g_pfnVendorVectors
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GINT1_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a00161c 00000018 T tickPowerSet
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000414 00000014 T ADS111x_SetComparatorQueue
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001134 00000058 T Chip_Clock_SetBaseClock
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0015f4 0000001c T cyclesCounterInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0015fc 00000018 T tickPowerSet
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000420 00000014 T ADS111x_SetComparatorQueue
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a001244 00000058 T Chip_Clock_SetBaseClock
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0015d4 0000001c T cyclesCounterInit
 MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0001ba 00000002 W GPIO4_IRQHandler
-MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a000860 0000000c T Board_SystemInit
+MyCIAAPrograms/ADS1115_ControlTemp/ads111x/out/ads111x.elf:1a0008c4 0000000c T Board_SystemInit

@@ -6,8 +6,9 @@
 
 /*=====[Inclusions of function dependencies]=================================*/
 
-#include "sapi_i2c.h"           /* <= sAPI I2C header */
+// #include "sapi_i2c.h"           /* <= sAPI I2C header */
 #include "port.h"
+#include "../inc/i2c_custom.h"
 
 /*=====[Prototypes (declarations) of private functions]=======================*/
 static void PORT_i2cInit(void);
@@ -31,7 +32,7 @@ ads111x_i2c_t PORT_Init(void) {
 /*=====[Implementations of private functions]=================================*/
 
 static void PORT_i2cInit(void) {
-    i2cInit(I2C0, 50000);
+    i2c_Init(I2C0, 100000);
 }
 
 static void PORT_i2cWrite(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t data) {
@@ -39,11 +40,11 @@ static void PORT_i2cWrite(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_
     data_to_send[0] = i2c_register;
     data_to_send[1] = (uint8_t)((data >> 8) & 0xFF);
     data_to_send[2] = (uint8_t)(data & 0xFF);
-    i2cWrite(I2C0, i2cSlaveAddress, data_to_send, 3, TRUE);
+    i2c_MasterSend(i2cSlaveAddress, data_to_send, 3);
 }
 
 static void PORT_i2cWriteRead(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t *readden_data) {
     uint8_t dataToRead[2];
-    i2cWriteRead(I2C0, i2cSlaveAddress, &i2c_register, 1, TRUE, dataToRead, 2, TRUE);
+    i2c_MasterReceive(i2cSlaveAddress, i2c_register, dataToRead, 2);
     *readden_data = (dataToRead[0] << 8) | dataToRead[1];
 }
