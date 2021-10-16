@@ -31,14 +31,18 @@ extern "C" {
 
 
 /*=====[Definitions of public data types]====================================*/
+typedef void (*I2C_INITIALIZATION)(void);
+typedef void (*I2C_WRITE)(uint8_t, uint8_t, uint16_t);
+typedef void (*I2C_READ)(uint8_t, uint8_t, uint8_t*);
+
 /**
  * @brief ADS111x Hal driver
  * 
  */
 typedef struct {
-    void (*Init)(void);
-    void (*Write)(uint8_t,uint8_t, uint16_t); // Write function pointer (addr,reg, data)
-    void (*WriteRead)(uint8_t, uint8_t, uint16_t*); // WriteRead function pointer (addt, reg, *data)
+    I2C_INITIALIZATION Init;
+    I2C_WRITE Write; // Write function pointer (addr,reg, data)
+    I2C_READ  WriteRead; // WriteRead function pointer (addt, reg, *data)
 } ads111x_i2c_t;
 
 /**
