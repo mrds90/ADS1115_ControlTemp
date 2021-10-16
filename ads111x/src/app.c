@@ -76,6 +76,11 @@ int main(void)
             temperature_setpoint = 0;
          }
          SetNewSetTreshold(temperature_setpoint);
+         char str[40];
+         sprintf( str, "SetPoint: %i.\r\n", temperature_setpoint );
+         uartWriteString(UART_USB, str);
+         sprintf( str, "Temperature: %i.\r\n", curret_temp );
+         uartWriteString(UART_USB, str);
       }
       if(CheckFallState(TEC2)) { //Increase temperature setpoint
          temperature_setpoint += TEMP_1_D_CELSIUS;
@@ -83,13 +88,18 @@ int main(void)
             temperature_setpoint = MAX_TEMP_D_CELSIUS;
          }
          SetNewSetTreshold(temperature_setpoint);
+         char str[40];
+         sprintf( str, "SetPoint: %i.\r\n", temperature_setpoint );
+         uartWriteString(UART_USB, str);
+         sprintf( str, "Temperature: %i.\r\n", curret_temp );
+         uartWriteString(UART_USB, str);
       }
       if(CheckFallState(TEC3)) { //Send the temperature to the UART
          /* routine to send the temperature by UART */
          char str[40];
          sprintf( str, "SetPoint: %i.\r\n", temperature_setpoint );
          uartWriteString(UART_USB, str);
-         
+        
       }
       if(CheckFallState(TEC4)) { //Send the temperature to the UART
          /* routine to send the temperature by UART */
