@@ -33,7 +33,7 @@ extern "C" {
 /*=====[Definitions of public data types]====================================*/
 typedef void (*I2C_INITIALIZATION)(void);
 typedef void (*I2C_WRITE)(uint8_t, uint8_t, uint16_t);
-typedef void (*I2C_READ)(uint8_t, uint8_t, uint8_t*);
+typedef void (*I2C_READ)(uint8_t, uint8_t, uint16_t*);
 
 /**
  * @brief ADS111x Hal driver
