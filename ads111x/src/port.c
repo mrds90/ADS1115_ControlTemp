@@ -15,7 +15,7 @@ static void PORT_i2cInit(void);
 
 static void PORT_i2cWrite(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t data);
 
-static void PORT_i2cWriteRead(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t *readden_data);
+static void PORT_i2cWriteRead(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t *read_data);
 
 /*=====[Definitions of private global variables]=============================*/
 
@@ -43,8 +43,8 @@ static void PORT_i2cWrite(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_
     i2c_MasterSend(i2cSlaveAddress, data_to_send, 3);
 }
 
-static void PORT_i2cWriteRead(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t *readden_data) {
+static void PORT_i2cWriteRead(uint8_t i2cSlaveAddress, uint8_t i2c_register, uint16_t *read_data) {
     uint8_t dataToRead[2];
     i2c_MasterReceive(i2cSlaveAddress, i2c_register, dataToRead, 2);
-    *readden_data = (dataToRead[0] << 8) | dataToRead[1];
+    *read_data = (dataToRead[0] << 8) | dataToRead[1];
 }
